@@ -604,9 +604,9 @@ function Cart() {
                   ← Continue shopping
                 </a>
 
-                <a href="/checkout" className="hero-button">
+                <Link to="/checkout" className="hero-button">
                   Continue to checkout →
-                </a>
+                </Link>
               </div>
             </aside>
 
@@ -686,9 +686,9 @@ function Checkout({ user }) {
           <span className="eyebrow">ALMOST THERE</span>
           <h1>Checkout.</h1>
           <p>Just a few details and your books are on their way.</p>
-          <a href="/cart" className="secondary-button">
+          <Link to="/cart" className="secondary-button">
             ← Back to cart
-          </a>
+          </Link>
         </div>
 
         {cart.length === 0 ? (
