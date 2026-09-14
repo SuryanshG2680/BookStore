@@ -364,7 +364,7 @@ function Login({ setUser }) {
         />
         <button>Login</button>
         <p>
-          New here? <a href="/register">Create account</a>
+          New here? <Link to="/register">Create account</Link>
         </p>
       </form>
     </main>
